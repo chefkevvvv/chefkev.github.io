@@ -11,7 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -22,7 +22,7 @@
             justify-content: center;
             padding: 20px;
         }
-        
+
         .container {
             max-width: 500px;
             width: 100%;
@@ -33,7 +33,7 @@
             text-align: center;
             backdrop-filter: blur(10px);
         }
-        
+
         .profile-pic {
             width: 120px;
             height: 120px;
@@ -46,34 +46,34 @@
             align-items: center;
             justify-content: center;
         }
-        
+
         .profile-pic img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        
+
         h1 {
             font-size: 28px;
             font-weight: 700;
             margin-bottom: 8px;
             color: #ffffff;
         }
-        
+
         .bio {
             font-size: 14px;
             color: #cccccc;
             margin-bottom: 32px;
             letter-spacing: 0.5px;
         }
-        
+
         .links-grid {
             display: grid;
             grid-template-columns: 1fr;
             gap: 12px;
             margin-bottom: 32px;
         }
-        
+
         .link-btn {
             display: flex;
             align-items: center;
@@ -89,25 +89,25 @@
             transition: all 0.3s ease;
             cursor: pointer;
         }
-        
+
         .link-btn:hover {
             background: rgba(255, 0, 0, 0.2);
             transform: translateX(4px);
         }
-        
+
         .link-btn i {
             font-size: 20px;
             color: #ff0000;
         }
-        
+
         .video-section {
             background: rgba(255, 0, 0, 0.05);
             border: 1px solid rgba(255, 0, 0, 0.3);
             border-radius: 12px;
             padding: 16px;
-            margin-top: 32px;
+            margin-bottom: 32px;
         }
-        
+
         .video-label {
             font-size: 12px;
             color: #ff0000;
@@ -116,20 +116,20 @@
             letter-spacing: 1px;
             margin-bottom: 12px;
         }
-        
+
         .video-embed {
             width: 100%;
             aspect-ratio: 16 / 9;
             border-radius: 8px;
             border: 1px solid rgba(255, 0, 0, 0.2);
         }
-        
+
         .divider {
             height: 1px;
             background: rgba(255, 0, 0, 0.2);
             margin: 24px 0;
         }
-        
+
         .footer-text {
             font-size: 12px;
             color: #888888;
@@ -141,16 +141,20 @@
         <div class="profile-pic">
             <img src="profilbild.png" alt="ChefKev">
         </div>
-        
+
         <h1>ChefKev</h1>
         <p class="bio">Creator | Videoproduction | Vienna</p>
+
         <div class="video-section">
-    <div class="video-label">Letztes Video</div>
-    <a href="https://youtu.be/31-hb7X8P2s?si=piajvHs6AvL2dCDq" target="_blank" style="display:block; position:relative; border-radius:8px; overflow:hidden;">
-        <img src="https://img.youtube.com/vi/31-hb7X8P2s/maxresdefault.jpg" alt="Letztes Video" style="width:100%; display:block; aspect-ratio:16/9; object-fit:cover;">
-        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:64px; height:64px; background:rgba(255,0,0,0.85); border-radius:50%; display:flex; align-items:center; justify-content:center;">
-            <i class="fas fa-play" style="color:#fff; font-size:22px; margin-left:4px;"></i>
+            <div class="video-label">Letztes Video</div>
+            <a href="https://youtu.be/31-hb7X8P2s?si=piajvHs6AvL2dCDq" target="_blank" style="display:block; position:relative; border-radius:8px; overflow:hidden;">
+                <img src="https://img.youtube.com/vi/31-hb7X8P2s/maxresdefault.jpg" alt="Letztes Video" style="width:100%; display:block; aspect-ratio:16/9; object-fit:cover;">
+                <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:64px; height:64px; background:rgba(255,0,0,0.85); border-radius:50%; display:flex; align-items:center; justify-content:center;">
+                    <i class="fas fa-play" style="color:#fff; font-size:22px; margin-left:4px;"></i>
+                </div>
+            </a>
         </div>
+
         <div class="links-grid">
             <a href="https://www.youtube.com/@chefkevv" target="_blank" class="link-btn">
                 <span>YouTube</span>
@@ -173,17 +177,10 @@
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
-        
+
         <div class="divider"></div>
-        
-        <div class="video-section">
-    <div class="video-label">Letztes Video</div>
-    <a href="https://youtu.be/31-hb7X8P2s?si=piajvHs6AvL2dCDq" target="_blank" style="display:block; position:relative; border-radius:8px; overflow:hidden;">
-        <img src="https://img.youtube.com/vi/31-hb7X8P2s/maxresdefault.jpg" alt="Letztes Video" style="width:100%; display:block; aspect-ratio:16/9; object-fit:cover;">
-        <div style="position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:64px; height:64px; background:rgba(255,0,0,0.85); border-radius:50%; display:flex; align-items:center; justify-content:center;">
-            <i class="fas fa-play" style="color:#fff; font-size:22px; margin-left:4px;"></i>
-        </div>
-    </a>
-</div>
+
+        <p class="footer-text">&copy; 2026 ChefKev</p>
+    </div>
 </body>
 </html>
